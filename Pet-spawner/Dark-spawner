@@ -7,9 +7,3 @@ Spawner.SpawnSeed("Candy Blossom") -- Spawns Candy Blossom
 Spawner.SpawnEgg("Night Egg") -- Spawns Night Egg
 Spawner.Spin("Sunflower") -- Spins Sunflower
 Spawner.Load() -- Loads the Default UI
-```
-
-# Default Loader
-```lua
-local Spawner = loadstring(game:HttpGet("https://gitlab.com/darkiedarkie/dark/-/raw/main/Spawner.lua"))()
-Spawner.Load()
